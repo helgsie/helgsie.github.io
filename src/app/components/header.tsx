@@ -7,7 +7,7 @@ export default function Component() {
             <div className="flex flex-row gap-6 sm:gap-3 items-center justify-center">
                 <Image
                 className="dark:invert"
-                src="/favicon.ico"
+                src="/nextjs-github-pages/favicon.ico"
                 alt="Slaufa"
                 width={20}
                 height={20}
@@ -16,7 +16,7 @@ export default function Component() {
                 <Link href="/" className="text-5xl sm:text-2xl font-semibold">helgsie</Link>
                 <Image
                 className="dark:invert"
-                src="/favicon.ico"
+                src="/nextjs-github-pages/favicon.ico"
                 alt="Slaufa"
                 width={20}
                 height={20}

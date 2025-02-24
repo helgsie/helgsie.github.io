@@ -12,7 +12,7 @@ export default function Projects() {
             <div className="w-full row-start-2 items-center mx-auto flex flex-col [&>*:nth-child(even)]:md:flex-row-reverse gap-16 md:gap-[10vw]">
                 <Card 
                     className=""
-                    image="/spotsie.png" 
+                    image="/nextjs-github-pages/spotsie.png" 
                     title="spotsie" 
                     description="React vefsíða sem sækir og birtir gögn frá Spotify API." 
                     link="https://spotsie.netlify.app" 
@@ -22,7 +22,7 @@ export default function Projects() {
                     height={250}
                 />
                 <Card 
-                    image="/pokeapi.png" 
+                    image="/nextjs-github-pages/pokeapi.png" 
                     title="pokedex" 
                     description="Einföld leitarvél fyrir gögn sótt af PokéAPI." 
                     link="https://vef-pokedex.netlify.app" 
@@ -33,7 +33,7 @@ export default function Projects() {
                 />
                 <Card 
                     className=""
-                    image="/spurningaleikur.png" 
+                    image="/nextjs-github-pages/spurningaleikur.png" 
                     title="spurningaleikur" 
                     description="Spurningaleikur með PostgreSQL gagnagrunn og hýsingu á Render." 
                     link="https://vef2-v2-irkc.onrender.com" 

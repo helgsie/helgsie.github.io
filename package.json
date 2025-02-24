@@ -1,6 +1,7 @@
 {
   "name": "helgsie.is",
   "version": "0.1.0",
+  "homepage": "https://helgsie.github.io",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
