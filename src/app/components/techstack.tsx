@@ -1,6 +1,13 @@
 import Image from 'next/image';
+import { FC } from 'react';
 
-export default function Techstack({ image, text, color }) {
+interface TechstackProps {
+    image: string;
+    text: string;
+    color: string;
+}
+
+const Techstack: FC<TechstackProps> = ({ image, text, color }) => {
     return (
         <div className={`${color} p-1 rounded-full`}>
             {image && (
@@ -16,3 +23,5 @@ export default function Techstack({ image, text, color }) {
         </div>
     );
 }
+
+export default Techstack;

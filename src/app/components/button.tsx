@@ -1,6 +1,16 @@
 import Image from 'next/image';
+import { FC } from 'react';
 
-export default function Button({ color, text, image, link }) {
+export type ButtonColor = 'transparent' | 'black' | 'rose' | 'cyan' | 'lightgray';
+
+interface ButtonProps {
+    color: ButtonColor;
+    text: string;
+    image?: string;
+    link: string;
+}
+
+export const Button: FC<ButtonProps> = ({ color, text, image, link }) => {
     const colors = {
         transparent: "hover:bg-[#f2f2f2] hover:border-transparent dark:hover:bg-[#1a1a1a]",
         black: "border-black/[.08] hover:bg-[#383838] dark:border-white/[.145] dark:hover:bg-[#ccc] bg-foreground text-background",
@@ -30,3 +40,5 @@ export default function Button({ color, text, image, link }) {
         </a>
     );
 }
+
+export default Button;

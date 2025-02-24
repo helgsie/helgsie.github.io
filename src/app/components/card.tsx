@@ -1,7 +1,28 @@
 import Image from 'next/image';
-import Button from './button';
+import { Button, ButtonColor } from './button';
+import { FC } from 'react';
 
-export default function Card({ image, title, description, link, buttonColor, buttonText, width, height }) {
+interface CardProps {
+    image: string;
+    title: string;
+    description: string;
+    link: string;
+    buttonColor: ButtonColor;
+    buttonText: string;
+    width: number;
+    height: number;
+}
+
+const Card: FC<CardProps> = ({
+    image, 
+    title, 
+    description, 
+    link, 
+    buttonColor, 
+    buttonText, 
+    width, 
+    height
+}) => {
     return (
         <div className="flex flex-col md:flex-row md:items-center content-center gap-4 md:gap-16">
             <Image
@@ -19,3 +40,5 @@ export default function Card({ image, title, description, link, buttonColor, but
         </div>
     );
 }
+
+export default Card;

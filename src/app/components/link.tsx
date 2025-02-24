@@ -1,6 +1,13 @@
 import Image from 'next/image';
+import { FC } from 'react';
 
-export default function Link({ image, text, link }) {
+interface LinkProps {
+    image: string;
+    text: string;
+    link: string;
+}
+
+const Link: FC<LinkProps> = ({ image, text, link }) => {
     return (
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -21,3 +28,5 @@ export default function Link({ image, text, link }) {
         </a>
     );
 }
+
+export default Link;
