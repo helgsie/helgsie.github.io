@@ -10,6 +10,14 @@ export default function Home() {
             </div>
         <main className="w-full flex flex-col gap-32 items-center">
             <p>Í vinnslu</p>
+            <a
+              href="/ferilskra_helgabh_clean.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=""
+            >
+              Ferilskrá (PDF)
+            </a>
         </main>
         <Footer/>
     </div>
