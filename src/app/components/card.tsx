@@ -6,7 +6,7 @@ interface CardProps {
     image: string;
     title: string;
     description: string;
-    link: string;
+    link?: string; 
     buttonColor: ButtonColor;
     buttonText: string;
     width: number;

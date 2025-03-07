@@ -9,14 +9,13 @@ export default function Home() {
                 <h2 className="font-semibold font-mono text-3xl border-b-2 border-black border-dotted">Ferilskrá</h2>
             </div>
         <main className="w-full flex flex-col gap-32 items-center">
-            <p>Í vinnslu</p>
             <a
               href="/ferilskra_helgabh_clean.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className=""
+              className="underline text-zinc-600"
             >
-              Ferilskrá (PDF)
+              Smelltu hér til að skoða ferilskrána mína á PDF formi
             </a>
         </main>
         <Footer/>

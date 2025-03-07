@@ -7,7 +7,7 @@ interface ButtonProps {
     color: ButtonColor;
     text: string;
     image?: string;
-    link: string;
+    link?: string;
 }
 
 export const Button: FC<ButtonProps> = ({ color, text, image, link }) => {
@@ -24,7 +24,7 @@ export const Button: FC<ButtonProps> = ({ color, text, image, link }) => {
     return (
         <a
             className={`rounded-full border border-solid transition-colors flex self-start items-center justify-center text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 ${colors[color]} ${image ? imageClass : ''}`}
-            href={link}
+            href={link || 'javascript:void(0)'}
             target="_blank"
             rel="noopener noreferrer"
         >   {image && (

@@ -9,6 +9,7 @@ export default function Textbox() {
                 Ég heiti Helga og er að ljúka öðru ári í tölvunarfræði við HÍ.
             </p>
             <p>Ég elska að búa til vefsíður, vinna með React, og læra á nýja tæknistakka.</p>
+            <p className="my-12 text-center">⚙️ Þessi vefsíða er enn í vinnslu ⚙️</p>
         </div>
     );
 }
