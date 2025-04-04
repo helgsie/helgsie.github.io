@@ -34,9 +34,9 @@ export default function Projects() {
                     image="/spurningaleikur.png" 
                     title="spurningaleikur" 
                     description="Spurningaleikur með PostgreSQL gagnagrunn og hýsingu á Render." 
-                    link="" 
-                    buttonColor="transparent" 
-                    buttonText="Í vinnslu"
+                    link="https://vef2-v4-gjvc.onrender.com" 
+                    buttonColor="lightgray" 
+                    buttonText="Skoða síðu"
                     width={500}
                     height={250}
                 />
