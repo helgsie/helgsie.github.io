@@ -13,8 +13,8 @@ export default function Projects() {
                 <Card 
                     image="/spotsie.png" 
                     title="spotsie"
-                    description="React vefsíða sem sækir og birtir gögn frá Spotify API." 
-                    link="https://spotsie.netlify.app" 
+                    description="React/Next.js vefsíða sem sækir og birtir hlustunargögnin mín frá Spotify API." 
+                    link="https://spotsie.onrender.com" 
                     buttonColor="lightgray" 
                     buttonText="Skoða síðu"
                     width={500}
