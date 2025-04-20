@@ -21,6 +21,16 @@ export default function Projects() {
                     height={250}
                 />
                 <Card 
+                    image="/menningarnott.png" 
+                    title="viðburðakerfi" 
+                    description="Viðburðakerfi fyrir dagskrá menningarnótt." 
+                    link="https://vef2-vidburdakerfi.onrender.com" 
+                    buttonColor="lightgray" 
+                    buttonText="Skoða síðu"
+                    width={500}
+                    height={250}
+                />
+                <Card 
                     image="/pokeapi.png" 
                     title="pokedex" 
                     description="Einföld leitarvél fyrir gögn sótt af PokéAPI." 
